@@ -1,0 +1,27 @@
+﻿body {
+  padding-top: 80px;
+  background: url("../images/ACG-Projects-402-Large-Right-Side.png") no-repeat right center;
+  background-size: contain;
+}
+html {
+  height: 100%;
+}
+.famfamfam-flags {
+  display: inline-block;
+}
+.swal-footer {
+  text-align: center;
+}
+.menu-logo {
+  height: 50px;
+}
+.navbar-brand {
+  padding: 10px;
+}
+.navbar-collapse {
+  border-color: #fff;
+}
+.nav .active {
+  background-image: url("../images/ACG-Projects-402-Menu-Active.png");
+  background-size: 100% 100%;
+}
