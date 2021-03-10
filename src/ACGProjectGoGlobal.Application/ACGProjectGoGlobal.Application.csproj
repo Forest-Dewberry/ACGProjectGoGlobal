@@ -14,7 +14,7 @@
     <ProjectReference Include="..\ACGProjectGoGlobal.Core\ACGProjectGoGlobal.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Abp.EntityFrameworkCore" Version="6.0.0" />
-    <PackageReference Include="Abp.AutoMapper" Version="6.0.0" />
+    <PackageReference Include="Abp.EntityFrameworkCore" Version="6.2.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="6.2.0" />
   </ItemGroup>
 </Project>
