@@ -16,14 +16,14 @@ namespace ACGProjectGoGlobal.Web.Startup
                         PageNames.Home,
                         L("HomePage"),
                         url: "",
-                        icon: "fa fa-home"
+                        icon: ""
                         )
                 ).AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
                         L("About"),
                         url: "Home/About",
-                        icon: "fa fa-info"
+                        icon: ""
                         )
                 );
         }

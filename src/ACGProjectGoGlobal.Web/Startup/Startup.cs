@@ -28,6 +28,10 @@ namespace ACGProjectGoGlobal.Web.Startup
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
             }).AddNewtonsoftJson();
 
+            services.AddMvc()
+                .AddSessionStateTempDataProvider();
+            services.AddSession();
+
             //Configure Abp and Dependency Injection
             return services.AddAbp<ACGProjectGoGlobalWebModule>(options =>
             {
@@ -51,6 +55,8 @@ namespace ACGProjectGoGlobal.Web.Startup
             {
                 app.UseExceptionHandler("/Error");
             }
+
+            app.UseSession();
 
             app.UseStaticFiles();
             app.UseRouting();
